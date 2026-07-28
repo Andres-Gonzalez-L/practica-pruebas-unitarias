@@ -4,5 +4,4 @@ def es_password_valida(password: str) -> bool:
 
     tiene_numero = any(caracter.isdigit() for caracter in password)
 
-
     return tiene_longitud and tiene_numero
